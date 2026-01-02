@@ -7,20 +7,24 @@ import DocCardList from "@theme/DocCardList";
 
 # Introduction
 
-Welcome to BagiBagi.co documentation.
+Selamat datang di dokumentasi BagiBagi.co.
 
-## What is BagiBagi.co?
+## Apa itu BagiBagi.co?
 
-BagiBagi.co. Provider of interactive widgets connecting viewers and streamers.
+BagiBagi.co adalah platform inovatif yang membantu siapa saja untuk menerima dukungan finansial sebagai bentuk apresiasi dengan cara saling berbagi dan memberikan penghargaan, menjadikannya pilihan terbaik untuk streamer Indonesia yang ingin mendapatkan dukungan dari penggemar mereka!
 
-Want to stream with a more expressive look? Widget designs that are so you? Efficient integration with OBS streaming software? BagiBagi.co is the answer. Templates with a wide range of design choices and more flexible customization features make BagiBagi.co better than other alternatives.
+Lebih dekat dengan komunitas, lebih mudah menerima apresiasi, dan lebih siap bikin stream yang berkesan.
 
-BagiBagi.co gives you the freedom to produce better content.
-
-## Integrations
+## Integrasi
 
 <DocCardList
   items={[
+    {
+      type: "link",
+      label: "Webhook Integration",
+      docId: "integrations/webhook-integration",
+      href: "/integrations/webhook-integration",
+    },
     {
       type: "link",
       label: "Leaderboard Integration",

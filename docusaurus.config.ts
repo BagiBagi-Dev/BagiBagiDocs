@@ -68,6 +68,15 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        docsRouteBasePath: "/",
+        hashed: true,
+      },
+    ],
+  ],
 
   themeConfig: {
     // Replace with your project's social card
@@ -81,7 +90,17 @@ const config: Config = {
         alt: "My Site Logo",
         src: "img/koin.png",
       },
-      items: [],
+      items: [
+        {
+          label: "Dashboard",
+          href: "https://bagibagi.co/dashboard",
+          position: "left",
+        },
+        {
+          type: "search",
+          position: "right",
+        },
+      ],
     },
     prism: {
       theme: prismThemes.github,

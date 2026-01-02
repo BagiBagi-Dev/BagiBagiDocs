@@ -41,6 +41,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -80,19 +81,7 @@ const config: Config = {
         alt: "My Site Logo",
         src: "img/koin.png",
       },
-      items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Docs",
-        },
-        {
-          to: "/docs/rest-api",
-          position: "left",
-          label: "REST API",
-        },
-      ],
+      items: [],
     },
     prism: {
       theme: prismThemes.github,

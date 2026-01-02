@@ -3,46 +3,47 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+import DocCardList from "@theme/DocCardList";
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Introduction
 
-## Getting Started
+Welcome to BagiBagi.co documentation.
 
-Get started by **creating a new site**.
+## What is BagiBagi.co?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+BagiBagi.co. Provider of interactive widgets connecting viewers and streamers.
 
-### What you'll need
+Want to stream with a more expressive look? Widget designs that are so you? Efficient integration with OBS streaming software? BagiBagi.co is the answer. Templates with a wide range of design choices and more flexible customization features make BagiBagi.co better than other alternatives.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+BagiBagi.co gives you the freedom to produce better content.
 
-## Generate a new site
+## Learn how to use
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<DocCardList
+  items={[
+    {
+      type: "link",
+      label: "Adding Widgets to OBS",
+      docId: "learn/adding-widgets-to-obs",
+      href: "/learn/adding-widgets-to-obs",
+    },
+    {
+      type: "link",
+      label: "OBS + BagiBagi.co Integration",
+      docId: "learn/obs-integration",
+      href: "/learn/obs-integration",
+    },
+    {
+      type: "link",
+      label: "Open BagiBagi.co directly in OBS",
+      docId: "learn/open-bagibagi-in-obs",
+      href: "/learn/open-bagibagi-in-obs",
+    },
+    {
+      type: "link",
+      label: "Widget Control",
+      docId: "learn/widget-control",
+      href: "/learn/widget-control",
+    },
+  ]}
+/>
